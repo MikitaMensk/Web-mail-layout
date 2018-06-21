@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Content-type" charset="UTF-8">
 <title>Stargreen</title>
+<style type="text/css">
+.btn-margin {
+	width: 43%;
+}
+.book-button {
+	width: 14%;
+}
+.blue-link {
+	color: #11a8f0;font: normal 13px/8px sans-serif;text-align:center;display:block;text-decoration: none;
+}
+@media (max-width: 500px) {
+.btn-margin {
+	width: 40%;
+}
+.book-button {
+	width: 20%;
+}
+}
+</style>
 </head>
 <body>
   <table width="100%" cellpadding="0" cellspacing="0">
@@ -31,7 +50,7 @@
     </tr>
     <tr>
       <td style="padding-top: 6px;" align="center">
-        <p class="description" style="font: normal 14px/22px sans-serif;border-bottom: 6px solid black;margin: 0;padding: 0 12px 12px;">
+        <p class="description" style="border-bottom: 6px solid black;font-size: 14px;  font-family: sans-serif;line-height:22px;margin: 0;padding: 0 12px 12px;">
           Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -45,11 +64,13 @@
       <td style="padding-top: 17px;padding-bottom: 7px;" align="center">
 			<table width="100%">
 				<tr>
-				<td width="43%"></td>
-				<td width="14%"  align="center" style="background-color: #63a210;border-width: 1px; border-style: solid; border-color:#333333;padding-top: 5px; padding-left: 17px; padding-bottom: 5px; padding-right: 17px;border-radius: 5px;">
-					<a href="https://tut.by" style="color: #ffffff; font-weight:bold; font-size: 17px; cursor: pointer;text-decoration: none;font-family: sans-serif;text-align: center;display:block;width:100%;">BOOK NOW</a>
+				<td class="btn-margin"></td>
+				<td class="book-btn" align="center" style="background-color: #63a210;border-width: 1px; border-style: solid; border-color:#333333;padding-top: 5px; padding-left: 17px; padding-bottom: 5px; padding-right: 17px;border-radius: 5px;">
+					<a href="https://tut.by" style="cursor: pointer;text-decoration: none;display:block;width:100%;">
+						<span style="color: #ffffff; font-weight:bold; font-size: 17px; font-family: sans-serif;text-align: center;">BOOK NOW</span>
+					</a>
 				</td>
-				<td width="43%"></td>
+				<td class="btn-margin"></td>
 				</tr>
 			</table>
       </td>
@@ -65,12 +86,12 @@
     </tr>
     <tr>
       <td style="padding-top: 20px; padding-left: 0; padding-right: 0; padding-bottom: 20px;" align="center">
-        <a href="https://www.tut.by" style="color: #11a8f0;font: normal 13px/8px sans-serif;text-align:center;display:block;text-decoration: none;">Privacy Policy</a>
+        <a href="https://www.tut.by" class="blue-link">Privacy Policy</a>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <a href="https://www.tut.by" style="color: #11a8f0;font: normal 13px/8px sans-serif;text-align:center;display:block;text-decoration: none;">Unsubscribe</a>
+        <a href="https://www.tut.by" class="blue-link">Unsubscribe</a>
       </td>
     </tr>
     <tr>
